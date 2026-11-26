@@ -17,3 +17,6 @@ console.log(message);
 
 sum = sum + 2
 console.log("the sum is ",sum)
+
+console.log(typeof (message));
+console.log(typeof (sum));
