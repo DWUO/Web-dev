@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Practice</title>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <button onclick="
+      cost+=5;
+      console.log('Coffee added')
+      
+    ">    
+    Coffee
+  </button>
+
+  <button onclick="
+    cost+=3;
+    console.log('Bagel added')
+    
+  ">
+    Bagels
+  </button>
+
+  <button onclick="
+    cost+=9;
+    console.log('Soup added')
+    
+  ">
+    Soup
+  </button>
+
+  <button onclick="
+    let tax = cost * 0.1;
+    let totalCost = cost + tax;
+
+    console.log(`Food Cost: $${cost}`);
+    console.log(`Tax (10%): $${tax}`);
+    console.log(`Total Cost: $${totalCost}`);
+  ">
+    See total cost
+  </button>
+
+</body>
+
+</html>

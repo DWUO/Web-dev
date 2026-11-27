@@ -1,1 +1,2 @@
-let quantity = 0;
+let cost = 0;
+
